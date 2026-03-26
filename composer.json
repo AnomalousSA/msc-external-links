@@ -1,6 +1,6 @@
 {
   "name": "anomalous/msc-external-links",
-  "description": "Development tooling for Micro Site Care: External Links.",
+  "description": "Highlight and manage external links with lightweight controls.",
   "type": "wordpress-plugin",
   "require-dev": {
     "dealerdirect/phpcodesniffer-composer-installer": "^1.1",
@@ -12,10 +12,5 @@
   "scripts": {
     "lint": "phpcs",
     "lint-fix": "phpcbf"
-  },
-  "config": {
-    "allow-plugins": {
-      "dealerdirect/phpcodesniffer-composer-installer": true
-    }
   }
 }
